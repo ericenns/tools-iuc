@@ -27,6 +27,7 @@ class Client(object):
         if history_file is not None:
             with open(history_file, 'r') as handle:
                 data = json.loads(handle.read())
+                print data
                 self.query_key = data['QueryKey']
                 self.webenv = data['WebEnv']
                 self.using_history = True
