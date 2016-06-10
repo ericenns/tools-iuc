@@ -210,7 +210,7 @@ WHEN_TPL = '''      <when value="{format}">
         </param>
       </when>'''
 
-FORMAT_OPTION_TPL =  '''<option value="{name_type}">{name_type_human}</option>'''
+FORMAT_OPTION_TPL = '''<option value="{name_type}">{name_type_human}</option>'''
 
 format_names = {}
 
