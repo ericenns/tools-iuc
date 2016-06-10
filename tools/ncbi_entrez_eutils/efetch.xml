@@ -11,7 +11,7 @@ $db.db_select
 
 @LIST_OR_HIST@
 
-#set retmode, rettype = str($db.output_format).split('-')
+#set rettype, retmode = str($db.output_format).split('-')
 ## Otherwise, defaults to a None/empty which implies 'default' to NCBI
 #if retmode != "null":
 --retmode $retmode
